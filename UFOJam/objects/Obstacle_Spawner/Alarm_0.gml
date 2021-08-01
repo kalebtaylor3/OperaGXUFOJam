@@ -25,4 +25,5 @@ else if(k >= 7)
 	l.y = 743;
 	show_debug_message("person spawned");
 }
-	alarm[0] = room_speed * random_range(0.75/global.speedModifier, 3/global.speedModifier);
+	alarm[0] = room_speed * random_range(0.75/global.speedModifier, 2/global.speedModifier);
+	alarm[1] = 1 * room_speed;

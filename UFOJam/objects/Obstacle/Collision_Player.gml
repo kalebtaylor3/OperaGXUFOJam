@@ -8,6 +8,6 @@ with (other)
 	}
 	else if(Player_2)
 	{
-		instance_deactivate_layer("Player_2")
+		instance_deactivate_layer("Player_2");
 	}
 }
