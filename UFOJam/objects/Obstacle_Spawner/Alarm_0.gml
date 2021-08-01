@@ -2,24 +2,46 @@ randomize();
 
 var k = random_range(1,10);
 
-if(k <= 6)
+if(k <= 8)
 {
 
 	var i = instance_create_layer(room_width + 50, room_height, "Instances", Obstacle);
 
 	i.sprite_index = choose(medium_Building, small_Building, tall_Building);
+	
+	var r = random_range(1,10);
 
 	if(i.sprite_index = tall_Building)
 	{
+		if(r < 4)
+		{
+			var p = instance_create_layer(room_width + 125, room_height, "Instances", Person);
+			p.y = 155;
+		}
 		i.y = 170;
 	}
-	else
+	else if(i.sprite_index = medium_Building)
 	{
+		if(r < 4)
+		{
+			var p = instance_create_layer(room_width + 75, room_height, "Instances", Person);
+			p.y = 420;
+		}
 		i.y = 469;
 	}
+	else if(i.sprite_index = small_Building)
+	{
+		if(r < 4)
+		{
+			var p = instance_create_layer(room_width + 50, room_height, "Instances", Person);
+			p.y = 500;
+		}
+		i.y = 469;
+	}
+	
 	show_debug_message("building spawned");
 }
-else if(k >= 7)
+else if(k >= 9)
 {
 	var l = instance_create_layer(room_width + 50, room_height, "Instances", Person);
 	l.y = 743;
