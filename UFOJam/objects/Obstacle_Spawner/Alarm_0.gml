@@ -16,27 +16,27 @@ if(k <= 8)
 		if(r < 4)
 		{
 			var p = instance_create_layer(room_width + 125, room_height, "Instances", Person);
-			p.y = 155;
+			p.y = 290;
 		}
-		i.y = 170;
+		i.y = 300;
 	}
 	else if(i.sprite_index = medium_Building)
 	{
 		if(r < 4)
 		{
 			var p = instance_create_layer(room_width + 75, room_height, "Instances", Person);
-			p.y = 420;
+			p.y = 505;
 		}
-		i.y = 469;
+		i.y = 550;
 	}
 	else if(i.sprite_index = small_Building)
 	{
 		if(r < 4)
 		{
 			var p = instance_create_layer(room_width + 50, room_height, "Instances", Person);
-			p.y = 500;
+			p.y = 625;
 		}
-		i.y = 469;
+		i.y = 600;
 	}
 	
 	show_debug_message("building spawned");
