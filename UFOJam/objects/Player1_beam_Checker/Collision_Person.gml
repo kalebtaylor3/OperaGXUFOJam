@@ -9,6 +9,6 @@ else
 	Player_1.beaming = 1;
 	Player_1_Beam.image_alpha = 100;
 	Player_1_Beam.image_speed = 1;
-	alarm[0] = 0.73 * room_speed;
+	alarm[0] = 0.63 * room_speed;
 }
 //call the animation

@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":3,},
+    {"id":{"name":"ScoreFont","path":"fonts/ScoreFont/ScoreFont.yy",},"order":2,},
     {"id":{"name":"Object2","path":"objects/Object2/Object2.yy",},"order":1,},
     {"id":{"name":"Player_2_Beam","path":"objects/Player_2_Beam/Player_2_Beam.yy",},"order":17,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
@@ -15,7 +16,9 @@
     {"id":{"name":"ScoreObj","path":"objects/ScoreObj/ScoreObj.yy",},"order":15,},
     {"id":{"name":"ScoreObj2","path":"objects/ScoreObj2/ScoreObj2.yy",},"order":16,},
     {"id":{"name":"playerShot","path":"sprites/playerShot/playerShot.yy",},"order":7,},
+    {"id":{"name":"UFO_1_Font","path":"fonts/UFO_1_Font/UFO_1_Font.yy",},"order":0,},
     {"id":{"name":"tall_Building","path":"sprites/tall_Building/tall_Building.yy",},"order":9,},
+    {"id":{"name":"obj_GameOver","path":"objects/obj_GameOver/obj_GameOver.yy",},"order":18,},
     {"id":{"name":"Player_1_Cannon","path":"objects/Player_1_Cannon/Player_1_Cannon.yy",},"order":11,},
     {"id":{"name":"Obstacle_Spawner","path":"objects/Obstacle_Spawner/Obstacle_Spawner.yy",},"order":5,},
     {"id":{"name":"Destoyed_Tall_Building","path":"sprites/Destoyed_Tall_Building/Destoyed_Tall_Building.yy",},"order":8,},
@@ -29,6 +32,7 @@
     {"id":{"name":"Destroyed_Tall","path":"sprites/Destroyed_Tall/Destroyed_Tall.yy",},"order":5,},
     {"id":{"name":"medium_Building","path":"sprites/medium_Building/medium_Building.yy",},"order":4,},
     {"id":{"name":"Obstacle","path":"objects/Obstacle/Obstacle.yy",},"order":4,},
+    {"id":{"name":"Font2","path":"fonts/Font2/Font2.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

@@ -7,6 +7,8 @@ else
 	if(Player_1.Player_Lives = 0)
 	{
 		show_debug_message("tall building not hit");
+		instance_create_layer(0,0, "Instances", obj_GameOver);
+		obj_GameOver.FinalScore = Player_1.Score;
 		instance_deactivate_layer("Player_1");
 	}
 	else
