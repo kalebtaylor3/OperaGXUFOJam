@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(Obstacle.sprite_index = Destoyed_Tall_Building) //or medium or small one
+if(Obstacle.sprite_index = Destroyed_Tall) //or medium or small one
 {
 	return
 }

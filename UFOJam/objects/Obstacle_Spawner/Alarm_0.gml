@@ -16,6 +16,7 @@ if(k <= 8)
 		if(r < 4)
 		{
 			var p = instance_create_layer(room_width + 125, room_height, "Instances", Person);
+			i.hasPerson = true;
 			p.y = 290;
 		}
 		i.y = 300;
@@ -25,6 +26,7 @@ if(k <= 8)
 		if(r < 4)
 		{
 			var p = instance_create_layer(room_width + 75, room_height, "Instances", Person);
+			i.hasPerson = true;
 			p.y = 505;
 		}
 		i.y = 550;
@@ -34,6 +36,7 @@ if(k <= 8)
 		if(r < 4)
 		{
 			var p = instance_create_layer(room_width + 50, room_height, "Instances", Person);
+			i.hasPerson = true;
 			p.y = 625;
 		}
 		i.y = 600;
