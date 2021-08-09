@@ -4,7 +4,7 @@ if(Obstacle.sprite_index = Destroyed_Tall) //or medium or small one
 }
 else
 {
-	if(Player_1.Player_Lives = 0)
+	if(Player_1.Player_Lives = 1)
 	{
 		show_debug_message("tall building not hit");
 		instance_create_layer(0,0, "Instances", obj_GameOver);
@@ -14,6 +14,7 @@ else
 	else
 	{
 		Player_1.Player_Lives =  Player_1.Player_Lives - 1;
+		
 		instance_destroy();
 		
 		if (Player_1.invuln = 0)
