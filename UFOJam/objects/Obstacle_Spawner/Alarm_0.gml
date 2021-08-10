@@ -2,7 +2,7 @@ randomize();
 
 var k = random_range(1,10);
 
-if(k <= 5)
+if(k <= 7)
 {
 
 	var i = instance_create_layer(room_width + 50, room_height, "Instances", Obstacle);
@@ -34,24 +34,22 @@ if(k <= 5)
 	
 	show_debug_message("building spawned");
 } 
-else if (k >= 6)
+else if (k <= 8)
 {
+	//and a general beside it
+		show_debug_message("spawned a car");
+	var c = instance_create_layer(room_width + 50, room_height, "Instances", obj_Car);
+	c.y = 640;
+}
+else if(k <= 9)
+{
+	//spawn a car worth like 20 points or something
 	var t = instance_create_layer(room_width + 75, room_height, "Instances", tankBody);
 	t.y = 550;
 	show_debug_message("spawned a tank");
-	//and a general beside it
 }
-else if(k = 8)
-{
-	var l = instance_create_layer(room_width + 50, room_height, "Instances", Person);
-	l.y = 705;
-	show_debug_message("person spawned");
-}
-else if(k >=9)
-{
-	//spawn a car worth like 20 points or something
-	show_debug_message("spawned a car");
-}
+
+	show_debug_message(k);
 
 	alarm[0] = room_speed * random_range(0.75/global.speedModifier, 2/global.speedModifier);
 	alarm[1] = 0.75 * room_speed;

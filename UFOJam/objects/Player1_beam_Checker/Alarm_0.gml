@@ -3,4 +3,10 @@
 Player_1_Beam.image_alpha = 0
 Player_1_Beam.image_speed= 0;
 Player_1_Beam.image_index = 0;
+
+Player_1_carBeam.image_alpha = 0;
+Player_1_carBeam.image_speed = 0;
+Player_1_carBeam.image_index = 0;
+
+
 Player_1.beaming = 0;
