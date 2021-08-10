@@ -9,6 +9,8 @@ if(sprite_index = medium_Building)
 	
 Player_1.Score += 1;
 
+effect_create_above(ef_firework, x, y, 5, c_red);
+
 
 if(hasPerson)
 	show_debug_message("had a person");
