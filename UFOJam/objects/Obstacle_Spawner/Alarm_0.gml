@@ -47,6 +47,12 @@ else if(k <= 9)
 	var t = instance_create_layer(room_width + 75, room_height, "Instances", tankBody);
 	t.y = 550;
 	show_debug_message("spawned a tank");
+	
+	var g = instance_create_layer(t.x + 250, t.y, "Instances", obj_General);
+	var J = instance_create_layer(room_width + 75, room_height, "Instances", obj_Jet);
+	
+	J .y = -40;
+	g.y = 589;
 }
 
 	show_debug_message(k);
