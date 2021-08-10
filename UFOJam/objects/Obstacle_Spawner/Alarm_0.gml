@@ -27,15 +27,17 @@ if(k <= 5)
 		{
 			var p = instance_create_layer(room_width + 75, room_height, "Instances", Person);
 			i.hasPerson = true;
-			p.y = 505;
+			p.y = 460;
 		}
-		i.y = 550;
+		i.y = 570;
 	}
 	
 	show_debug_message("building spawned");
 } 
 else if (k >= 6)
 {
+	var t = instance_create_layer(room_width + 75, room_height, "Instances", tankBody);
+	t.y = 550;
 	show_debug_message("spawned a tank");
 	//and a general beside it
 }

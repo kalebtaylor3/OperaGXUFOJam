@@ -1,4 +1,4 @@
-if(Obstacle.sprite_index = Destroyed_Tall) //or medium or small one
+if(Obstacle.sprite_index = Destroyed_Tall || Obstacle.sprite_index = medium_destroyed) //or medium or small one
 {
 	return
 }

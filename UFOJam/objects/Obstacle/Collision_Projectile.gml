@@ -3,7 +3,7 @@
 if(sprite_index = tall_Building)
 	sprite_index = Destroyed_Tall;
 if(sprite_index = medium_Building)
-	sprite_index = Destroyed_Tall;
+	sprite_index = medium_destroyed;
 if(sprite_index = medium_Building)
 	sprite_index = Destroyed_Tall;
 	
