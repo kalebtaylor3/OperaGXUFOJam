@@ -2,7 +2,7 @@
 // You can write your code in this editor
 Player_1.Score += 10;
 
-effect_create_above(ef_firework, x, y, 5, c_red);
+part_particles_create(global.P_System, x, y, global.Explosion, 20);
 
 instance_destroy();
 instance_destroy(Projectile);

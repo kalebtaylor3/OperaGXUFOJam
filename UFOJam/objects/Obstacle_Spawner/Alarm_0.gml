@@ -45,9 +45,14 @@ else if(k <= 9)
 {
 	//spawn a car worth like 20 points or something
 	var t = instance_create_layer(room_width + 75, room_height, "Instances", tankBody);
-	var a = instance_create_layer(t.x + 50, 640, "Instances", obj_tankArm);
-	a.y = 640;
 	t.y = 550;
+	
+	if(dead == 0)
+	{
+		var a = instance_create_layer(t.x + 50, 640, "Instances", obj_tankArm);
+		a.y = 640;
+	}
+	
 	show_debug_message("spawned a tank");
 	
 	var g = instance_create_layer(t.x + 250, t.y, "Instances", obj_General);

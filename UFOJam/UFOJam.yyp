@@ -37,6 +37,7 @@
     {"id":{"name":"Obstacle_Spawner","path":"objects/Obstacle_Spawner/Obstacle_Spawner.yy",},"order":5,},
     {"id":{"name":"tankBarrel","path":"sprites/tankBarrel/tankBarrel.yy",},"order":24,},
     {"id":{"name":"Player_1","path":"objects/Player_1/Player_1.yy",},"order":0,},
+    {"id":{"name":"obj_ParticleSystem","path":"objects/obj_ParticleSystem/obj_ParticleSystem.yy",},"order":34,},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":15,},
     {"id":{"name":"Heart","path":"sprites/Heart/Heart.yy",},"order":11,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},

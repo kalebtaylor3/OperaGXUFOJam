@@ -9,8 +9,8 @@ if(sprite_index = medium_Building)
 	
 Player_1.Score += 1;
 
-effect_create_above(ef_firework, x, y, 5, c_red);
 
+part_particles_create(global.P_System, x, y + 100, global.Explosion, 20);
 
 if(hasPerson)
 	show_debug_message("had a person");

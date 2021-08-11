@@ -9,13 +9,15 @@ else
 		show_debug_message("tall building not hit");
 		instance_create_layer(0,0, "Instances", obj_GameOver);
 		obj_GameOver.FinalScore = Player_1.Score;
-		effect_create_above(ef_explosion, x, y, 20, c_red);
+		part_particles_create(global.P_System, x, y, global.Explosion, 50);
+		Obstacle_Spawner.dead = 1;
 		instance_deactivate_layer("Player_1");
+		instance_destroy(obj_tankArm);
 	}
 	else
 	{
 		Player_1.Player_Lives =  Player_1.Player_Lives - 1;
-		effect_create_above(ef_firework, x, y, 20, c_red);
+		part_particles_create(global.P_System, Player_1.x + 200, Player_1.y, global.Explosion, 50);
 		instance_destroy();
 		
 		if (Player_1.invuln = 0)
