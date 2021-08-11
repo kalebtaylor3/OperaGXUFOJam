@@ -19,7 +19,7 @@ if(k <= 7)
 			i.hasPerson = true;
 			p.y = 290;
 		}
-		i.y = 300;
+		i.y = 316;
 	}
 	else if(i.sprite_index = medium_Building)
 	{
@@ -39,12 +39,14 @@ else if (k <= 8)
 	//and a general beside it
 		show_debug_message("spawned a car");
 	var c = instance_create_layer(room_width + 50, room_height, "Instances", obj_Car);
-	c.y = 640;
+	c.y = 628;
 }
 else if(k <= 9)
 {
 	//spawn a car worth like 20 points or something
 	var t = instance_create_layer(room_width + 75, room_height, "Instances", tankBody);
+	var a = instance_create_layer(t.x + 50, 640, "Instances", obj_tankArm);
+	a.y = 640;
 	t.y = 550;
 	show_debug_message("spawned a tank");
 	

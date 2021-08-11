@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 21,
-  "bbox_right": 179,
-  "bbox_top": 13,
-  "bbox_bottom": 599,
+  "bbox_left": 12,
+  "bbox_right": 198,
+  "bbox_top": -28,
+  "bbox_bottom": 414,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 200,
-  "height": 600,
+  "height": 415,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"533756c8-ebcb-4bf1-a3c8-74ebb489b50f","path":"sprites/tall_Building/tall_Building.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"533756c8-ebcb-4bf1-a3c8-74ebb489b50f","path":"sprites/tall_Building/tall_Building.yy",},"LayerId":{"name":"26797c98-17ef-4d0a-9f56-684bf2ee6a31","path":"sprites/tall_Building/tall_Building.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"tall_Building","path":"sprites/tall_Building/tall_Building.yy",},"resourceVersion":"1.0","name":"533756c8-ebcb-4bf1-a3c8-74ebb489b50f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"318e5b02-9e38-457f-aef1-ec24b676cf2a","path":"sprites/tall_Building/tall_Building.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"318e5b02-9e38-457f-aef1-ec24b676cf2a","path":"sprites/tall_Building/tall_Building.yy",},"LayerId":{"name":"8aa3921b-4d0b-449d-955a-ad8f16bc563d","path":"sprites/tall_Building/tall_Building.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"tall_Building","path":"sprites/tall_Building/tall_Building.yy",},"resourceVersion":"1.0","name":"318e5b02-9e38-457f-aef1-ec24b676cf2a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"tall_Building","path":"sprites/tall_Building/tall_Building.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"909b5cfd-a01c-49e9-9dea-c0c38444dbdb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"533756c8-ebcb-4bf1-a3c8-74ebb489b50f","path":"sprites/tall_Building/tall_Building.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f8851b24-0362-4010-adfa-f2480870d085","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"318e5b02-9e38-457f-aef1-ec24b676cf2a","path":"sprites/tall_Building/tall_Building.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"26797c98-17ef-4d0a-9f56-684bf2ee6a31","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8aa3921b-4d0b-449d-955a-ad8f16bc563d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

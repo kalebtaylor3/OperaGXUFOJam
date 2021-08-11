@@ -5,4 +5,5 @@ Player_1.Score += 5;
 effect_create_above(ef_firework, x, y, 5, c_red);
 
 instance_destroy();
+instance_destroy(obj_tankArm);
 instance_destroy(Projectile);
