@@ -10,7 +10,7 @@ if(Player_1)
 	{
 		show_debug_message("hit car");
 		instance_destroy();
-		Player_1.Score += 10;
+		Player_1.Score += 5;
 		//show_debug_message(Player_1.Score);
 	}
 }
