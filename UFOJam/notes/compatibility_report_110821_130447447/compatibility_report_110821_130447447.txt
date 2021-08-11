@@ -1,0 +1,46 @@
+Converting GML script: ${project_dir}\scripts\em_init\em_init.gml
+Converted description /// @description em_init(section_num,font,pixel_space,cursor_char,start_x,start_y,halign,valign,color,title,title_separation,title_color,title_font,title_xscale,title_yscale,sound);/// @param section_num
+/// @param font
+/// @param pixel_space
+/// @param cursor_char
+/// @param start_x
+/// @param start_y
+/// @param halign
+/// @param valign
+/// @param color
+/// @param title
+/// @param title_separation
+/// @param title_color
+/// @param title_font
+/// @param title_xscale
+/// @param title_yscale
+/// @param sound
+
+Converting GML script: ${project_dir}\scripts\em_step\em_step.gml
+Converted description /// @description em_step(key_up,key_down,key_enter);/// @param key_up
+/// @param key_down
+/// @param key_enter
+
+Converting GML script: ${project_dir}\scripts\em_add_section\em_add_section.gml
+Error: variable 'script' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description em_add_section(text,script);/// @param text
+/// @param script
+
+Converting GML script: ${project_dir}\scripts\em_draw\em_draw.gml
+Converted description /// @description em_draw();
+
+Converting GML script: ${project_dir}\scripts\em_destroy\em_destroy.gml
+Converted description /// @description em_destroy();
+
+Converting GML script: ${project_dir}\objects\obj_menu\Create_0.gml
+Converted description /// @description EM_INIT AND EM_ADD_SECTION
+Converted string - line 6: '>' -> ">"
+
+Converting GML script: ${project_dir}\objects\obj_menu\Destroy_0.gml
+Converted description /// @description EM_DESTROY
+
+Converting GML script: ${project_dir}\objects\obj_menu\Step_0.gml
+Converted description /// @description EM_STEP
+
+Converting GML script: ${project_dir}\objects\obj_menu\Draw_0.gml
+Converted description /// @description EM_DRAW

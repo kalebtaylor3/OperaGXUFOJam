@@ -15,4 +15,4 @@ draw_set_font(UFO_1_Font);
 draw_set_color(c_white);
 draw_text(room_width / 2, room_height - 40, "SCORE: ");
 draw_set_font(ScoreFont);
-draw_text(room_width / 2 + 150, room_height -35, FinalScore);
+draw_text(room_width / 2 + 150, room_height -45, FinalScore);
