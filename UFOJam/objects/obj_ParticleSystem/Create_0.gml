@@ -4,7 +4,7 @@ global.P_System=part_system_create_layer(layer, true);
 global.Explosion = part_type_create();
 
 part_type_shape(global.Explosion, pt_shape_explosion);
-part_type_size(global.Explosion, 6, 7, 0.1, 0);
+part_type_size(global.Explosion, 3, 6, 0.1, 0);
 part_type_color_mix(global.Explosion, c_red, c_yellow);
 part_type_alpha3(global.Explosion, 0.8, 1.2, 1.8);
 part_type_life(global.Explosion, 20, 30);

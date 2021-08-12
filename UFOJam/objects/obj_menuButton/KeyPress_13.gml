@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(storyRoom);
+audio_play_sound(Sound2, 1000, false);
+fadeToRoom(storyRoom, 30, c_black);

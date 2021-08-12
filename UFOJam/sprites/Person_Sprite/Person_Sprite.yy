@@ -8,7 +8,7 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 18,
+  "bbox_right": 19,
   "bbox_top": 0,
   "bbox_bottom": 49,
   "HTile": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ad313061-56c1-4104-bb3e-258ed419eb9c","path":"sprites/Person_Sprite/Person_Sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ad313061-56c1-4104-bb3e-258ed419eb9c","path":"sprites/Person_Sprite/Person_Sprite.yy",},"LayerId":{"name":"0c0484d6-4965-4901-8ab4-7630af75437b","path":"sprites/Person_Sprite/Person_Sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Person_Sprite","path":"sprites/Person_Sprite/Person_Sprite.yy",},"resourceVersion":"1.0","name":"ad313061-56c1-4104-bb3e-258ed419eb9c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2f416863-3e18-4560-9b92-a7f543987ac9","path":"sprites/Person_Sprite/Person_Sprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2f416863-3e18-4560-9b92-a7f543987ac9","path":"sprites/Person_Sprite/Person_Sprite.yy",},"LayerId":{"name":"f34bbafa-db9a-4362-8c83-ed02a7ae6612","path":"sprites/Person_Sprite/Person_Sprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Person_Sprite","path":"sprites/Person_Sprite/Person_Sprite.yy",},"resourceVersion":"1.0","name":"2f416863-3e18-4560-9b92-a7f543987ac9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Person_Sprite","path":"sprites/Person_Sprite/Person_Sprite.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"592176a8-8b05-421c-a1bf-d95d971df224","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ad313061-56c1-4104-bb3e-258ed419eb9c","path":"sprites/Person_Sprite/Person_Sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3ee4c43f-e602-4158-bf08-51ca202d59b8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f416863-3e18-4560-9b92-a7f543987ac9","path":"sprites/Person_Sprite/Person_Sprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0c0484d6-4965-4901-8ab4-7630af75437b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f34bbafa-db9a-4362-8c83-ed02a7ae6612","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

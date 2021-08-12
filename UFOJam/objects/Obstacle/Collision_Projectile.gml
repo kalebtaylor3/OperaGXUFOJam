@@ -10,7 +10,7 @@ if(sprite_index = medium_Building)
 Player_1.Score += 1;
 
 
-part_particles_create(global.P_System, x, y + 100, global.Explosion, 20);
+part_particles_create(global.P_System, x, y + 75, global.Explosion, 20);
 
 if(hasPerson)
 	show_debug_message("had a person");
