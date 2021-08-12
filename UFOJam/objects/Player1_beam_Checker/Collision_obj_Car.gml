@@ -6,6 +6,7 @@ if(Player_1.invuln = 1)
 }
 else
 {
+	audio_play_sound(beam, 1000, false);
 	Player_1_carBeam.image_alpha = 100;
 	Player_1_carBeam.image_speed = 1;
 	alarm[0] = 0.63 * room_speed;

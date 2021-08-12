@@ -1,3 +1,5 @@
+audio_play_sound(downsound, 1000, false);
+
 if(y = -30)
 {
 	y = 200

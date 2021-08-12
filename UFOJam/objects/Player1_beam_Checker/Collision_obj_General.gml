@@ -8,6 +8,7 @@ if(Player_1.invuln = 1)
 }
 else
 {
+	audio_play_sound(beam, 1000, false);
 	Player_1.beaming = 1;
 	Player_1_generalBeam.image_alpha = 100;
 	Player_1_generalBeam.image_speed = 1;

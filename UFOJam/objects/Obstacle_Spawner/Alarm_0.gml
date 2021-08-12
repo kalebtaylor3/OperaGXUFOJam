@@ -57,6 +57,7 @@ else if(k <= 9)
 	
 	var g = instance_create_layer(t.x + 250, t.y, "Instances", obj_General);
 	var J = instance_create_layer(room_width + 75, room_height, "Instances", obj_Jet);
+	audio_play_sound(jetsound, 1000, false);
 	
 	J .y = -40;
 	g.y = 589;

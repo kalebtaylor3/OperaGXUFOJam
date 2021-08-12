@@ -9,7 +9,7 @@ if(sprite_index = medium_Building)
 	
 Player_1.Score += 1;
 instance_create_layer(Player_1.x + 300, Player_1.y + 200, "Player_1", HitBuildingPopUp);
-
+audio_play_sound(explosion, 1000, false);
 part_particles_create(global.P_System, x, y + 75, global.Explosion, 20);
 
 if(hasPerson)
