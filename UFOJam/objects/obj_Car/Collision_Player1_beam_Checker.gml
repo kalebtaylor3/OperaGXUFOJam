@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(Player_1)
 {
-	if(Player_1.invuln = 1 || Player_1.beaming = 1)
+	if(Player_1.invuln = 1)
 	{
 		return;
 	}
@@ -11,7 +11,7 @@ if(Player_1)
 		show_debug_message("hit car");
 		instance_destroy();
 		Player_1.Score += 5;
-		instance_create_layer(Player_1.x + 300, Player_1.y + 150, "Player_1", CarPickUp);
+		instance_create_layer(Player_1.x + 300, Player_1.y + 200, "Player_1", CarPickUp);
 		//show_debug_message(Player_1.Score);
 	}
 }

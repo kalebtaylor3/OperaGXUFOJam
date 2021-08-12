@@ -49,7 +49,7 @@ else if(k <= 9)
 	
 	if(dead == 0)
 	{
-		var a = instance_create_layer(t.x + 50, 640, "Instances", obj_tankArm);
+		var a = instance_create_layer(t.x + 50, 640, "tankArmLayer", obj_tankArm);
 		a.y = 640;
 	}
 	

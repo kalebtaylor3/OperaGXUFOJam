@@ -1,4 +1,4 @@
-if(Player_1.invuln = 1 || Player_1.beaming = 1)
+if(Player_1.invuln = 1)
 {
 	return;
 }
