@@ -4,7 +4,7 @@
 // You can write your code in this editor
 if(Player_1.invuln >= 1 || Player_1.beaming >= 1)
 {
-	return
+	return;
 }
 else
 {
