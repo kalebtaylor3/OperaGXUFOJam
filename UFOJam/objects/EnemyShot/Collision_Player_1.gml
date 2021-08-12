@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 if(Player_1.Player_Lives = 1)
 {
 	show_debug_message("tall building not hit");

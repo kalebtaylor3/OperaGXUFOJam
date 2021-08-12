@@ -73,6 +73,7 @@
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},"order":49,},
     {"id":{"name":"compatibility_report_110821_130151151","path":"notes/compatibility_report_110821_130151151/compatibility_report_110821_130151151.yy",},"order":0,},
     {"id":{"name":"PersonPopUp","path":"objects/PersonPopUp/PersonPopUp.yy",},"order":42,},
+    {"id":{"name":"tall_Destroyed","path":"sprites/tall_Destroyed/tall_Destroyed.yy",},"order":30,},
     {"id":{"name":"Ammo_Pickup","path":"sprites/Ammo_Pickup/Ammo_Pickup.yy",},"order":23,},
     {"id":{"name":"obj_Music","path":"objects/obj_Music/obj_Music.yy",},"order":33,},
     {"id":{"name":"medium_Building","path":"sprites/medium_Building/medium_Building.yy",},"order":4,},

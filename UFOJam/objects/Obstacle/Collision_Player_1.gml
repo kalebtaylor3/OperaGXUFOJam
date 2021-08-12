@@ -1,4 +1,8 @@
-if(Obstacle.sprite_index = Destroyed_Tall || Obstacle.sprite_index = medium_destroyed) //or medium or small one
+if(Player_1.invuln == 1 || Player_1.beaming == 1)
+{
+	return;
+}
+else if(Obstacle.sprite_index = tall_Destroyed || Obstacle.sprite_index = medium_destroyed) //or medium or small one
 {
 	return
 }
@@ -26,4 +30,4 @@ else
 		}
 		
 	}
-}
+	}
