@@ -8,7 +8,7 @@ if(sprite_index = medium_Building)
 	sprite_index = Destroyed_Tall;
 	
 Player_1.Score += 1;
-
+instance_create_layer(Player_1.x + 300, Player_1.y + 150, "Player_1", HitBuildingPopUp);
 
 part_particles_create(global.P_System, x, y + 75, global.Explosion, 20);
 

@@ -57,7 +57,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ScoreFont",
+  "name": "popupfont",
   "tags": [],
   "resourceType": "GMFont",
 }
