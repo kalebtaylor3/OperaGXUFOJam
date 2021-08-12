@@ -2,6 +2,8 @@
 // You can write your code in this editor
 speed = -12 * global.speedModifier;
 
+if(x < -200)
+	instance_destroy();
 
 var pd = point_direction(x, y, Target.x, Target.y);
 var ad = angle_difference(image_angle, pd);
