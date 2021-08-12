@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //Starting positions
+
 texty = room_height + 50;  
 textx = 100;
 

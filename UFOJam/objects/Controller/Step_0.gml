@@ -4,6 +4,8 @@ if (keyboard_check_pressed(vk_enter) && !instance_exists(obj_Fade)) {
 	// Target room
 	var _targetRoom = room;
 	
+	audio_stop_all();
+	
 	if (room == MainMenu)
 	{
 		_targetRoom = storyRoom;

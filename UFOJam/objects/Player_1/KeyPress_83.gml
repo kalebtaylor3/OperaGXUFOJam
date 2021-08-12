@@ -1,4 +1,4 @@
-audio_play_sound(downsound, 1000, false);
+audio_play_sound(upsound, 1000, false);
 
 if(y = -30)
 {
